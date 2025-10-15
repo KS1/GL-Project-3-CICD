@@ -44,8 +44,11 @@ jobs:
     inputs:
       raw_data: ${{parent.inputs.raw_data}}
     outputs:
-      train_data: ${{parent.outputs.train_data}}
-      test_data: ${{parent.outputs.test_data}}
+    train_data: ${{parent.outputs.train_data}}
+    test_data: ${{parent.outputs.test_data}}
+    # outputs:
+    #   train_data: ${{parent.outputs.train_data}}
+    #   test_data: ${{parent.outputs.test_data}}
 
   sweep_step:
     name: sweep_model
