@@ -43,8 +43,14 @@ def main(args):  # Write the function name for the main data preparation logic
     # train_df.to_csv(os.path.join(args.train_data, "train.csv"), index=False)  # Specify the name of the train data file
     # test_df.to_csv(os.path.join(args.test_data, "test.csv"), index=False)  # Specify the name of the test data file
 
+    # Resolve output paths
     train_output_path = Path(args.train_data)
     test_output_path = Path(args.test_data)
+
+    print(f"Resolved train output path: {train_output_path}")
+    print(f"Resolved test output path: {test_output_path}")
+
+    # Save the train and test data
     train_df.to_csv(train_output_path / "train.csv", index=False)
     test_df.to_csv(test_output_path / "test.csv", index=False)
     
