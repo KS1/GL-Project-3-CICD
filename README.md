@@ -6,3 +6,18 @@ An automobile dealership in Los Vegas specializes in selling luxury and non-luxu
 
 ## Objective:
 The dealership has hired you as an MLOps Engineer to design and implement an MLOps pipeline that automates the pricing workflow. This pipeline will encompass data cleaning, preprocessing, transformation, model building, training, evaluation, and registration with CI/CD capabilities to ensure continuous integration and delivery. Your role is to overcome challenges such as integrating disparate data sources, maintaining consistent model performance, and enabling scalable, automated updates to meet evolving business needs. The expected outcomes are a robust, automated system that improves pricing accuracy, operational efficiency, and scalability, driving increased profitability and customer satisfaction.
+
+## Data Description:
+Segment: Describes the category of the vehicle, indicating whether it is a luxury or non-luxury segment.
+
+Kilometers_Driven: The total number of kilometers the vehicle has been driven.
+
+Mileage: The fuel efficiency of the vehicle, measured in kilometers per liter (km/l).
+
+Engine: The engine capacity of the vehicle, measured in cubic centimeters (cc). 
+
+Power: The power of the vehicle's engine, measured in brake horsepower (BHP). 
+
+Seats: The number of seats in the vehicle, can influence the vehicle's classification, usage, and pricing based on customer needs.
+
+Price: The price of the vehicle, listed in lakhs (units of 100,000), represents the cost to the consumer for purchasing the vehicle.
