@@ -21,3 +21,5 @@ Power: The power of the vehicle's engine, measured in brake horsepower (BHP).
 Seats: The number of seats in the vehicle, can influence the vehicle's classification, usage, and pricing based on customer needs.
 
 Price: The price of the vehicle, listed in lakhs (units of 100,000), represents the cost to the consumer for purchasing the vehicle.
+
+##########################################################################
