@@ -22,4 +22,4 @@ Seats: The number of seats in the vehicle, can influence the vehicle's classific
 
 Price: The price of the vehicle, listed in lakhs (units of 100,000), represents the cost to the consumer for purchasing the vehicle.
 
-##########################################################################
+#######################################################################################################################################
